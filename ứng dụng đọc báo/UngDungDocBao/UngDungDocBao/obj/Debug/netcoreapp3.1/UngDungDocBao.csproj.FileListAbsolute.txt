@@ -1,0 +1,60 @@
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.exe
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.deps.json
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.json
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.dev.json
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.dll
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.pdb
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.AssemblyReference.cache
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AddNewFeeds.resources
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Mainform.resources
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Properties.Resources.resources
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.GenerateResource.cache
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.GeneratedMSBuildEditorConfig.editorconfig
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfoInputs.cache
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfo.cs
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.CoreCompileInputs.cache
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.dll
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.pdb
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.genruntimeconfig.cache
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\Data\Data.txt
+E:\csdl\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Components.NewsControl.resources
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\Data\Data.txt
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.exe
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.deps.json
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.json
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.dev.json
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.dll
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.pdb
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.AssemblyReference.cache
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AddNewFeeds.resources
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Components.NewsControl.resources
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Mainform.resources
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Properties.Resources.resources
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.GenerateResource.cache
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfoInputs.cache
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfo.cs
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.CoreCompileInputs.cache
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.dll
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.pdb
+C:\Users\nmh26\OneDrive\Desktop\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.genruntimeconfig.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\Data\Data.txt
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.deps.json
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.json
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.runtimeconfig.dev.json
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\bin\Debug\netcoreapp3.1\UngDungDocBao.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AddNewFeeds.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Components.NewsControl.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Mainform.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.GeneratedMSBuildEditorConfig.editorconfig
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfoInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.AssemblyInfo.cs
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\ứng dụng đọc báo\UngDungDocBao\UngDungDocBao\obj\Debug\netcoreapp3.1\UngDungDocBao.genruntimeconfig.cache
