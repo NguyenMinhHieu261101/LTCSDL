@@ -1,0 +1,22 @@
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.exe.config
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.exe
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.pdb
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.AssemblyReference.cache
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.frmSinhVien.resources
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.SinhVienSortNgaySinh.resources
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.Properties.Resources.resources
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.GenerateResource.cache
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.CoreCompileInputs.cache
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.exe
+F:\LT-CSDL-master\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.exe.config
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\bin\Debug\Lab03_Demo.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.frmSinhVien.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.SinhVienSortNgaySinh.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab03_Demo\Lab03_Demo\obj\Debug\Lab03_Demo.pdb
