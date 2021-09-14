@@ -1,100 +1,136 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.CompilerServices;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lab03_Demo
 {
     public partial class frmSinhVien : Form
     {
-        QuanLySinhVien quanLySV;
+        QuanLySinhVien qlsv;
+
         public frmSinhVien()
         {
             InitializeComponent();
-            quanLySV = new QuanLySinhVien();
-            quanLySV.DocTuFile(renderStatusBar);
-            RenderListView();
+            qlsv = new QuanLySinhVien();
+            qlsv.DocTuFile(renderStatusBar);
         }
 
         private SinhVien GetSinhVien()
         {
-            bool gioiTinh = rdNam.Checked ? true : false;
-            string maSo = mtxtMaSo.Text.Split('.')[1];
-
-            if (maSo.Trim().Length != 7)
-                throw new ArgumentException("Vui long nhap ma sinh vien hop le");
-
-            string hoTen = txtHoTen.Text;
-            DateTime ngaySinh = dtpNgaySinh.Value;
-            string diaChi = txtDiaChi.Text;
-            string lop = cboLop.Text;
-            string hinh = txtHinh.Text;
-
-            List<string> chuyenNganh = new List<string>();  
-            for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
+            SinhVien sv = new SinhVien();
+            bool gt = true;
+            List<string> cn = new List<string>();
+            sv.MaSo = this.mtxtMaSo.Text;
+            sv.HoTen = this.txtHoTen.Text;
+            sv.NgaySinh = this.dtpNgaySinh.Value;
+            sv.DiaChi = this.txtDiaChi.Text;
+            sv.Lop = this.cboLop.Text;
+            sv.Hinh = this.txtHinh.Text;
+            if (rdNu.Checked)
+                gt = false;
+            sv.GioiTinh = gt;
+            for (int i = 0; i < this.clbChuyenNganh.Items.Count; i++)
                 if (clbChuyenNganh.GetItemChecked(i))
-                    chuyenNganh.Add(clbChuyenNganh.Items[i].ToString());
-
-            return new SinhVien(maSo, hoTen, ngaySinh, diaChi, lop, hinh, gioiTinh, chuyenNganh);
+                    cn.Add(clbChuyenNganh.Items[i].ToString());
+            sv.ChuyenNganh = cn;
+            return sv;
         }
 
-        private SinhVien GetSinhVienOnListViewItem(ListViewItem item)
+        private SinhVien GetSinhVienLV(ListViewItem lvitem)
         {
-            string maSo = item.SubItems[0].Text;
-            return quanLySV.Tim(new SinhVien { MaSo = maSo });
+            SinhVien sv = new SinhVien();
+            sv.MaSo = lvitem.SubItems[0].Text;
+            sv.HoTen = lvitem.SubItems[1].Text;
+            sv.NgaySinh = DateTime.Parse(lvitem.SubItems[2].Text);
+            sv.DiaChi = lvitem.SubItems[3].Text;
+            sv.Lop = lvitem.SubItems[4].Text;
+            sv.GioiTinh = false;
+            if (lvitem.SubItems[5].Text == "Nam")
+                sv.GioiTinh = true;
+            List<string> cn = new List<string>();
+            string[] s = lvitem.SubItems[6].Text.Split(',');
+            foreach (string t in s)
+                cn.Add(t);
+            sv.ChuyenNganh = cn;
+            sv.Hinh = lvitem.SubItems[7].Text;
+            return sv;
         }
 
         private void ThietLapThongTin(SinhVien sv)
         {
-            mtxtMaSo.Text = sv.MaSo;
-            txtHoTen.Text = sv.HoTen;
-            dtpNgaySinh.Value = sv.NgaySinh;
-            txtDiaChi.Text = sv.DiaChi;
-            cboLop.Text = sv.Lop;
-            txtHinh.Text = sv.Hinh;
-            pbHinh.ImageLocation = sv.Hinh;
-            if (sv.GioiTinh) rdNam.Checked = true;
-            else rdNu.Checked = true;
+            this.mtxtMaSo.Text = sv.MaSo;
+            this.txtHoTen.Text = sv.HoTen;
+            this.dtpNgaySinh.Value = sv.NgaySinh;
+            this.txtDiaChi.Text = sv.DiaChi;
+            this.cboLop.Text = sv.Lop;
+            this.txtHinh.Text = sv.Hinh;
+            this.pbHinh.ImageLocation = sv.Hinh;
+            if (sv.GioiTinh)
+                this.rdNam.Checked = true;
+            else
+                this.rdNu.Checked = true;
 
-            for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
-                clbChuyenNganh.SetItemChecked(i, false);
+            for (int i = 0; i < this.clbChuyenNganh.Items.Count; i++)
+                this.clbChuyenNganh.SetItemChecked(i, false);
 
-            foreach (var chuyenNganh in sv.ChuyenNganh)
+            foreach (string s in sv.ChuyenNganh)
             {
-                for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
-                    if (chuyenNganh.CompareTo(clbChuyenNganh.Items[i]) == 0)
-                        clbChuyenNganh.SetItemChecked(i, true);
-            }       
+                for (int i = 0; i < this.clbChuyenNganh.Items.Count; i++)
+                    if (s.CompareTo(this.clbChuyenNganh.Items[i]) == 0)
+                        this.clbChuyenNganh.SetItemChecked(i, true);
+            }
         }
 
-        private void renderStatusBar()
+        private void ThemSV(SinhVien sv)
         {
-            sttLabelTongSinhVien.Text = "Tổng Số Sinh Viên: " + quanLySV.DanhSach.Count;
+            ListViewItem lvitem = new ListViewItem(sv.MaSo);
+            lvitem.SubItems.Add(sv.HoTen);
+            lvitem.SubItems.Add(sv.NgaySinh.ToShortDateString());
+            lvitem.SubItems.Add(sv.DiaChi);
+            lvitem.SubItems.Add(sv.Lop);
+            string gt = "Nữ";
+            if (sv.GioiTinh)
+                gt = "Nam";
+            lvitem.SubItems.Add(gt);
+            string cn = "";
+            foreach (string s in sv.ChuyenNganh)
+                cn += s + ",";
+            cn = cn.Substring(0, cn.Length - 1);
+            lvitem.SubItems.Add(cn);
+            lvitem.SubItems.Add(sv.Hinh);
+            this.lvSinhVien.Items.Add(lvitem);
+        }   
+
+        private void LoadListView()
+        {
+            this.lvSinhVien.Items.Clear();
+            qlsv.DanhSach.ForEach(sv => ThemSV(sv));
         }
 
-        private void RenderListViewItem(SinhVien sv)
+        private void frmSinhVien_Load(object sender, EventArgs e)
         {
-            ListViewItem item = new ListViewItem(sv.MaSo);
-            item.SubItems.Add(sv.HoTen);
-            item.SubItems.Add(sv.NgaySinh.ToString("dd/MM/yyyy"));
-            item.SubItems.Add(sv.DiaChi);
-            item.SubItems.Add(sv.Lop);
-            item.SubItems.Add(sv.GioiTinh ? "Nam" : "Nữ");
-            item.SubItems.Add(String.Join(", ", sv.ChuyenNganh));
-            item.SubItems.Add(sv.Hinh);
-
-            listView1.Items.Add(item);
+            qlsv = new QuanLySinhVien();
+            qlsv.DocTuFile(renderStatusBar);
+            LoadListView();
         }
 
-        private void RenderListView()
+        private void lvSinhVien_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listView1.Items.Clear();
-            quanLySV.DanhSach.ForEach(sv => RenderListViewItem(sv));
-        }
-
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            int count = this.lvSinhVien.SelectedItems.Count;
+            if (count > 0)
+            {
+                ListViewItem lvitem = this.lvSinhVien.SelectedItems[0];
+                SinhVien sv = GetSinhVienLV(lvitem);
+                ThietLapThongTin(sv);
+            }
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -102,151 +138,102 @@ namespace Lab03_Demo
             try
             {
                 SinhVien sv = GetSinhVien();
-                quanLySV.Them(sv, renderStatusBar);
-                RenderListView();
+                qlsv.Them(sv, renderStatusBar);
+                this.LoadListView();
             }
             catch (ArgumentException ex)
             {
-                MessageBox.Show(ex.Message, "Lỗi thêm dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Mã sinh viên đã tồn tại!", "Lỗi thêm dữ liệu",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (listView1.CheckedItems.Count == 0)
-                MessageBox.Show("Vui long chon sinh vien de xoa", "Thong bao", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            foreach (ListViewItem item in listView1.Items)
-                if (item.Checked) 
-                    quanLySV.Xoa(GetSinhVienOnListViewItem(item), renderStatusBar);
-
-            RenderListView();
-            btnMacDinh.PerformClick();
+            int count, i;
+            ListViewItem lvitem;
+            count = this.lvSinhVien.Items.Count - 1;
+            for (i = count; i >= 0; i--)
+            {
+                lvitem = this.lvSinhVien.Items[i];
+                if (lvitem.Checked)
+                    qlsv.Xoa(lvitem.SubItems[0].Text, SoSanhTheoMa, renderStatusBar);
+            }
+            this.LoadListView();
+            this.btnMacDinh.PerformClick();
         }
 
         private void btnMacDinh_Click(object sender, EventArgs e)
         {
-            mtxtMaSo.Text = "";
-            txtHoTen.Text = "";
-            dtpNgaySinh.Value = DateTime.Now;
-            txtDiaChi.Text = "";
-            cboLop.Text = cboLop.Items[0].ToString();
-            txtHinh.Text = "";
-            pbHinh.ImageLocation = "";
-            rdNam.Checked = true;
-
-            for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
-                clbChuyenNganh.SetItemChecked(i, false);
+            this.mtxtMaSo.Text = "";
+            this.txtHoTen.Text = "";
+            this.dtpNgaySinh.Value = DateTime.Now;
+            this.txtDiaChi.Text = "";
+            this.cboLop.Text = this.cboLop.Items[0].ToString();
+            this.txtHinh.Text = "";
+            this.pbHinh.ImageLocation = "";
+            this.rdNam.Checked = true;
+            for (int i = 0; i < this.clbChuyenNganh.Items.Count - 1; i++)
+                this.clbChuyenNganh.SetItemChecked(i, false);
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            try
+            SinhVien sv = GetSinhVien();
+            bool kqsua;
+            kqsua = qlsv.Sua(sv, sv.MaSo, SoSanhTheoMa);
+            if (kqsua)
             {
-                SinhVien svMoi = GetSinhVien();
-                quanLySV.Sua(new SinhVien { MaSo = svMoi.MaSo }, svMoi);
-                RenderListView();
+                this.LoadListView();
             }
-            catch (ArgumentException ex)
-            {
-                MessageBox.Show(ex.Message, "Lỗi sửa thông tin sinh viên", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+        }
+
+        private int SoSanhTheoMa(object obj1, object obj2)
+        {
+            SinhVien sv = obj2 as SinhVien;
+            return sv.MaSo.CompareTo(obj1);
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
         {
-            OpenFileDialog fileDialog = pictureDialog;
-
-            bool isAccept = fileDialog.ShowDialog() == DialogResult.OK;
-            if (isAccept)
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.FileName = "Hãy chọn file";
+            dlg.Title = "Open File Image";
+            dlg.Filter = "Image Files (*.bmp;*.jpg;*.png)|"
+            + "*.bmp;*.jpg;*png|;"
+            + "All files (*.*)|*.*";
+            dlg.InitialDirectory = Environment.CurrentDirectory;
+            if (dlg.ShowDialog() == DialogResult.OK)
             {
-                var arr = fileDialog.FileName.Split('\\');
-                string fileName = arr[arr.Length - 1].Split('.')[0];
-                string extension = arr[arr.Length - 1].Split('.')[1];
-
-                // Make unique file name
-                fileName += "_" + DateTime.UtcNow.ToBinary();
-
-                string fullFileName = fileName + "." + extension;
-
-                string projectPath = Utils.GetPathTo("data", "photos", fullFileName);
-
-                // Copy file to /data in project folder
-                File.Copy(fileDialog.FileName, projectPath);
-
-                txtHinh.Text = projectPath;
-                pbHinh.ImageLocation = projectPath;
+                var fileName = dlg.FileName;
+                txtHinh.Text = fileName;
+                pbHinh.Load(fileName);
             }
         }
 
-        private void menuItemOpenFile_Click(object sender, EventArgs e)
+        private void renderStatusBar()
         {
-            btnBrowse.PerformClick();
-        }
-
-        private void menuItemExit_Click(object sender, EventArgs e)
-        {
-            btnThoat.PerformClick();
-        }
-
-        private void menuItemAdd_Click(object sender, EventArgs e)
-        {
-            btnThem.PerformClick();
-        }
-
-        private void menuItemDelete_Click(object sender, EventArgs e)
-        {
-            btnXoa.PerformClick();
-        }
-
-        private void menuItemEdit_Click(object sender, EventArgs e)
-        {
-            btnSua.PerformClick();
-        }
-
-        private void menuItemFont_Click(object sender, EventArgs e)
-        {
-            FontDialog fontDialog = fontDialog1;
-            var isOK = fontDialog.ShowDialog();
-
-            if (isOK == DialogResult.OK)
-            {
-                listView1.Font = fontDialog.Font;
-            }
-        }
-
-        private void menuItemFontColor_Click(object sender, EventArgs e)
-        {
-            ColorDialog colorDialog = new ColorDialog();
-            var isOK = colorDialog.ShowDialog();
-
-            if(isOK == DialogResult.OK)
-            {
-                listView1.ForeColor = colorDialog.Color;
-            }
-        }
-
-        private void menuItemSearch_Click(object sender, EventArgs e)
-        {
-            var formTuyChon = new frmTuyChon(quanLySV, listView1 , "search");
-            formTuyChon.ShowDialog();
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listView1.SelectedItems.Count == 0) return;
-
-            var sinhVien = GetSinhVienOnListViewItem(listView1.SelectedItems[0]);
-            ThietLapThongTin(sinhVien);
+            this.sttSV.Text = "Tổng Sinh Viên: " + this.qlsv.DanhSach.Count;
         }
 
         private void menuItemSort_Click(object sender, EventArgs e)
         {
-            var formTuyChon = new frmTuyChon(quanLySV, listView1, "sort");
+            var formTuyChon = new frmTuyChon(qlsv, lvSinhVien, "sort");
             formTuyChon.ShowDialog();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void menuItemSearch_Click(object sender, EventArgs e)
+        {
+            var formTuyChon = new frmTuyChon(qlsv, lvSinhVien, "search");
+            formTuyChon.ShowDialog();
+        }
+
+        private void rdNu_CheckedChanged(object sender, EventArgs e)
         {
 
         }

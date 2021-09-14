@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Lab03_Demo
 {
@@ -19,16 +22,16 @@ namespace Lab03_Demo
             ChuyenNganh = new List<string>();
         }
 
-        public SinhVien(string maSo, string hoTen, DateTime ngaySinh, string diaChi, string lop, string hinh, bool gioiTinh, List<string> chuyenNganh)
+        public SinhVien(string ms, string ht, DateTime ngay, string dc, string lop, string hinh, bool gt, List<string>cn)
         {
-            MaSo = maSo;
-            HoTen = hoTen;
-            NgaySinh = ngaySinh;
-            DiaChi = diaChi;
-            Lop = lop;
-            Hinh = hinh;
-            GioiTinh = gioiTinh;
-            ChuyenNganh = chuyenNganh;
+            this.MaSo = ms;
+            this.HoTen = ht;
+            this.NgaySinh = ngay;
+            this.DiaChi = dc;
+            this.Lop = lop;
+            this.Hinh = hinh;
+            this.GioiTinh = gt;
+            this.ChuyenNganh = cn;
         }
     }
 }
