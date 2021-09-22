@@ -1,0 +1,10 @@
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\bin\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.exe.config
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\bin\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\bin\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\_1910125_NguyenMinhHieu_CTK43_Lab04.FormQLSV.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\_1910125_NguyenMinhHieu_CTK43_Lab04.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\1910125_NguyenMinhHieu_CTK43_Lab04\1910125_NguyenMinhHieu_CTK43_Lab04\obj\Debug\1910125_NguyenMinhHieu_CTK43_Lab04.pdb
