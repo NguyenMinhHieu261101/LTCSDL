@@ -129,7 +129,20 @@ namespace _1910125_NguyenMinhHieu_CTK43_Lab04
 
         private void btThoat_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dlr = MessageBox.Show("Bạn có muốn lưu danh sách không", "Lưu ý", MessageBoxButtons.YesNoCancel);
+            if (dlr == DialogResult.Yes)
+            {
+                Sinhvien sv = GetSinhVien();
+                Sinhvien kq = qlsv.Tim(sv.Maso, delegate (object obj1, object obj2)
+                {
+                    return (obj2 as Sinhvien).Maso.CompareTo(obj1.ToString());
+                });
+                this.qlsv.Them(sv);
+                this.LoadListView();
+                MessageBox.Show("Đã lưu");
+            }
+            else
+            { Application.Exit(); }
         }
 
         private void btLuu_Click(object sender, EventArgs e)

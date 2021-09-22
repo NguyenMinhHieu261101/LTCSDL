@@ -1,2 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_1910125_NguyenMinhHieu_CTK43_Lab04.FormQLSV">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAATEIESCQwSACAEoSF5AD/AyKAAACgIbACAOAIBAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1910125_NguyenMinhHieu_CTK43_Lab04.Program">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1910125_NguyenMinhHieu_CTK43_Lab04.QuanLySinhVien">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCCAAAAAAAAAggAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>QuanLySinhVien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1910125_NguyenMinhHieu_CTK43_Lab04.Sinhvien">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAASAgQAAAAAAAgAAAAAAAAAKAAAAAA=</HashCode>
+      <FileName>Sinhvien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="_1910125_NguyenMinhHieu_CTK43_Lab04.SoSanh">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>QuanLySinhVien.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
