@@ -1,0 +1,11 @@
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe.config
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Form1.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab6_Basic_Command\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.frmFood.resources
