@@ -1,0 +1,11 @@
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\bin\Debug\Lab7_Advanced_Command.exe.config
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\bin\Debug\Lab7_Advanced_Command.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\bin\Debug\Lab7_Advanced_Command.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.Form1.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.FoodInfoForm.resources
