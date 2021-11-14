@@ -44,6 +44,7 @@ namespace Lab7_Advanced_Command
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtSearchByName = new System.Windows.Forms.TextBox();
+            this.bttAcc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +53,7 @@ namespace Lab7_Advanced_Command
             // 
             this.cbbCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbCategory.FormattingEnabled = true;
-            this.cbbCategory.Location = new System.Drawing.Point(205, 35);
+            this.cbbCategory.Location = new System.Drawing.Point(204, 31);
             this.cbbCategory.Name = "cbbCategory";
             this.cbbCategory.Size = new System.Drawing.Size(260, 28);
             this.cbbCategory.TabIndex = 0;
@@ -62,7 +63,7 @@ namespace Lab7_Advanced_Command
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 38);
+            this.label1.Location = new System.Drawing.Point(24, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 20);
             this.label1.TabIndex = 1;
@@ -77,7 +78,7 @@ namespace Lab7_Advanced_Command
             this.dgvFoodList.Name = "dgvFoodList";
             this.dgvFoodList.RowHeadersWidth = 51;
             this.dgvFoodList.RowTemplate.Height = 24;
-            this.dgvFoodList.Size = new System.Drawing.Size(913, 503);
+            this.dgvFoodList.Size = new System.Drawing.Size(913, 491);
             this.dgvFoodList.TabIndex = 2;
             // 
             // contextMenuStrip1
@@ -163,7 +164,7 @@ namespace Lab7_Advanced_Command
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(531, 39);
+            this.label5.Location = new System.Drawing.Point(531, 34);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(142, 20);
             this.label5.TabIndex = 8;
@@ -172,11 +173,23 @@ namespace Lab7_Advanced_Command
             // txtSearchByName
             // 
             this.txtSearchByName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchByName.Location = new System.Drawing.Point(712, 36);
+            this.txtSearchByName.Location = new System.Drawing.Point(710, 32);
             this.txtSearchByName.Name = "txtSearchByName";
             this.txtSearchByName.Size = new System.Drawing.Size(166, 27);
             this.txtSearchByName.TabIndex = 9;
             this.txtSearchByName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // bttAcc
+            // 
+            this.bttAcc.BackColor = System.Drawing.Color.Red;
+            this.bttAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttAcc.Location = new System.Drawing.Point(732, 569);
+            this.bttAcc.Name = "bttAcc";
+            this.bttAcc.Size = new System.Drawing.Size(144, 35);
+            this.bttAcc.TabIndex = 10;
+            this.bttAcc.Text = "Tài khoản";
+            this.bttAcc.UseVisualStyleBackColor = false;
+            this.bttAcc.Click += new System.EventHandler(this.bttAcc_Click);
             // 
             // Form1
             // 
@@ -184,6 +197,7 @@ namespace Lab7_Advanced_Command
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(915, 604);
+            this.Controls.Add(this.bttAcc);
             this.Controls.Add(this.txtSearchByName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -220,6 +234,7 @@ namespace Lab7_Advanced_Command
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSearchByName;
+        private System.Windows.Forms.Button bttAcc;
     }
 }
 

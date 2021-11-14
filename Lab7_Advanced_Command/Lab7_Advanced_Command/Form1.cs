@@ -72,7 +72,7 @@ namespace Lab7_Advanced_Command
 
         private void tsmCalculateQuantity_Click(object sender, EventArgs e)
         {
-            string connectionString = "server=.; database = RestaurantManagement; Integrated Security = true;";
+            string connectionString = "server=.; database = RestaurantManagement; Integrated Security = true; ";
             SqlConnection conn = new SqlConnection(connectionString);
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = "SELECT @numSaleFood = sum(Quantity) FROM BillDetails WHERE FoodID = @foodId";
@@ -87,7 +87,10 @@ namespace Lab7_Advanced_Command
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 string result = cmd.Parameters["@numSaleFood"].Value.ToString();
-                MessageBox.Show("Tổng số lượng món " + rowView ["Name"] + " đã bán là: " + result + " " + rowView["Unit"]);
+                string message = $"Tổng số lượng món {rowView["Name"]} đã bán là {result} {rowView["Unit"]}";
+                if (string.IsNullOrWhiteSpace(result))
+                    message = $"Món {rowView["Name"]} chưa bán được {rowView["Unit"]} nào!";
+                MessageBox.Show(message);
                 conn.Close();
             }
             cmd.Dispose();
@@ -136,6 +139,12 @@ namespace Lab7_Advanced_Command
             DataView foodView = new DataView(foodTable, filterExpression, sortExpression, rowStateFilter);
 
             dgvFoodList.DataSource = foodView;
+        }
+
+        private void bttAcc_Click(object sender, EventArgs e)
+        {
+            AccountForm accform = new AccountForm();
+            accform.Show(this);
         }
     }
 }

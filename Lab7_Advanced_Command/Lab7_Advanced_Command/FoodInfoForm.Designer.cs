@@ -168,6 +168,7 @@ namespace Lab7_Advanced_Command
             this.btnAddView.TabIndex = 16;
             this.btnAddView.Text = "Thêm thực đơn";
             this.btnAddView.UseVisualStyleBackColor = false;
+            this.btnAddView.Click += new System.EventHandler(this.btnAddView_Click);
             // 
             // btnAddFood
             // 

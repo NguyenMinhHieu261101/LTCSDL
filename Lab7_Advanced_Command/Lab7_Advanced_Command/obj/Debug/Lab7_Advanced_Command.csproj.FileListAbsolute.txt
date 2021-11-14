@@ -9,3 +9,5 @@ F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advan
 F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.exe
 F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.pdb
 F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.FoodInfoForm.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.AccountForm.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\Lab7_Advanced_Command\Lab7_Advanced_Command\obj\Debug\Lab7_Advanced_Command.OrdersForm.resources

@@ -189,5 +189,10 @@ namespace Lab7_Advanced_Command
         {
             this.Close();
         }
+
+        private void btnAddView_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
