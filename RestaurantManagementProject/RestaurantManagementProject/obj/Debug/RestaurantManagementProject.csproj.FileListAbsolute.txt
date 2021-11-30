@@ -1,0 +1,15 @@
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmFood.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CopyComplete
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb

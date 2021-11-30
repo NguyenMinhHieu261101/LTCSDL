@@ -1,0 +1,6 @@
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.pdb
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.dll
+F:\Lập trình cơ sở dữ liệu\Bài tập\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.pdb
